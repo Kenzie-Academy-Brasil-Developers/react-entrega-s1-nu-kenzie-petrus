@@ -1,0 +1,225 @@
+
+.corpo{
+    background-color: white;
+    color: black;
+    margin-top: 120px;
+    width: 100vw;
+    display: flex;
+    gap: 65px;
+    height: 83%;
+    align-items: flex-start;
+}
+
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.card1{
+    width: 327px;
+    height: 310px;
+    border-radius: 4px;
+    border: solid 1px 
+    rgb(206, 206, 206);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card1 > h4{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card1 > input{
+    padding: 0px 16px 0px 16px;
+    border-radius: 8px;
+    background-color: rgba(248, 249, 250, 1);
+    border: none;
+    height: 53px;
+}
+
+.card1 > span{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(181, 182, 184);
+    margin-top: 10px;
+}
+
+.card1 > div{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.valor > input{
+    border-radius: 8px;
+    height: 48px;
+    width: 128px;
+    background-color: rgba(248, 249, 250, 1);
+    border: none;
+    padding: 0px 16px 0px 16px;
+}
+
+select{
+    border-radius: 8px;
+    height: 48px;
+    width: 150px;
+    background-color: rgba(248, 249, 250, 1);
+    border: none;
+    padding: 0px 16px 0px 16px;
+}
+
+
+.enviarValor{
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+}
+
+.enviarValor:hover{
+    filter:brightness(0.90)
+}
+
+
+.card2{
+    width: 327px;
+    border-radius: 4px;
+    border: solid 1px rgb(206, 206, 206);
+    padding: 20px;
+    
+}
+
+.card2 > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card2 > div > p{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card2 > div > span{
+    color: rgba(253, 55, 126, 1);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.financeiro{
+    width: 41%;
+}
+
+.financeiro > div{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   justify-content: space-between;
+}
+
+.financeiro > div > p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 190px;
+    margin-top: 8px;
+}
+
+.btnFinanceiro{
+    margin: 0;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    width: 87px;
+    background-color: rgba(233, 236, 239, 1);
+    color: black;
+
+}
+
+.btnFinanceiro:hover{
+    background-color:rgb(102, 102, 102);
+    color: white;
+}
+
+.btnTodosFinanceiro{
+    margin: 0;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    width: 87px;
+    color: rgb(255, 255, 255);
+}
+
+.financeiro > h2{
+    font-size: 22px;
+    font-weight: 700;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 30px;
+}
+
+li{
+    width: 95%;
+    height: 87px;
+    border-radius: 4px;
+    background-color: rgba(248, 249, 250, 1);
+    border-left: solid 5px rgba(3, 184, 152, 1);
+    list-style:none;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lista1 > h3{
+    margin: 0;
+}
+
+.lista1 > p {
+    margin: 0;
+}
+
+.lista2{
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.lista2 > p{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.lista2 > img{
+    width: 13px;
+    height: 13px;
+  
+}
+
+li:hover{
+    background-color:white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}

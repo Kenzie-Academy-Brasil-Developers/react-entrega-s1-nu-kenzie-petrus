@@ -1,0 +1,37 @@
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+}
+
+h2{
+    font-size: 38px;
+    font-weight: 800;
+    width: 400px;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+button{
+    background-color: rgba(253, 55, 126, 1);
+    border-radius: 8px;
+    padding: 13px, 20px, 13px, 20px;
+    color: white;
+    width:241px;
+    height:48px;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
