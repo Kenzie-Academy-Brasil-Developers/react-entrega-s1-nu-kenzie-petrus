@@ -9,7 +9,7 @@ export default function Menu({children}){
     return(
 
         <section>
-            <div>
+            <div className='div1'>
                 <img src={kenzie} alt="logo" />
                 <h2>Centralize o controle das suas finanças</h2>
                 <p>de forma rápida e segura</p>
@@ -17,7 +17,7 @@ export default function Menu({children}){
             </div>
 
             <div>
-                <img src={kenzie2} alt="" />
+                <img className='foto' src={kenzie2} alt="" />
             </div>
 
         </section>

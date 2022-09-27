@@ -35,3 +35,26 @@ button{
     cursor: pointer;
     font-weight: bold;
 }
+
+@media (max-width: 768px){
+
+    html{
+        background-color: black;
+    }
+
+    section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .foto{
+        height: 300px;
+        width: 80%;
+    }
+
+    .div1{
+        width: 80%;
+        margin: 0 auto;
+    }
+}

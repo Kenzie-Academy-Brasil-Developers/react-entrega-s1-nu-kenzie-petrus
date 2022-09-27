@@ -1,7 +1,13 @@
 .bloco1{
     margin-right: 75px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
 }
 
 .bloco2{
     height: 70%;
 }
+

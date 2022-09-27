@@ -10,6 +10,7 @@
     justify-content: space-around;
     background-color: white;
     gap: 400px;
+    
  
 }
 
@@ -30,4 +31,15 @@
 .sair:hover{
     background-color:rgb(102, 102, 102);
     color: white;
+}
+
+@media (max-width: 768px){
+    .header{
+        box-shadow:none;
+        justify-content: space-between;
+    }
+
+    .sair{
+        margin-right: 70px;
+    }
 }
