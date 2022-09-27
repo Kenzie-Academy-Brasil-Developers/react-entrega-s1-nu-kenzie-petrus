@@ -8,7 +8,7 @@ export default function Menu({children}){
 
     return(
 
-        <section>
+        <section className='menu'>
             <div className='div1'>
                 <img src={kenzie} alt="logo" />
                 <h2>Centralize o controle das suas finanças</h2>

@@ -29,7 +29,6 @@ export default function Form({adicionarItens}){
 
             setTextoInput('');
             SetValorInput('');
-            setTipo('');
         }else{
             alert('Preencha todos os campos')
         }

@@ -1,17 +1,20 @@
-.header{
+header{
     width: 100vw;
     height: 88px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-    position: absolute;
-    top: 0;
-    left: 0;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     gap: 400px;
-    
- 
+}
+
+.blocoHeader{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sair{
@@ -33,13 +36,3 @@
     color: white;
 }
 
-@media (max-width: 768px){
-    .header{
-        box-shadow:none;
-        justify-content: space-between;
-    }
-
-    .sair{
-        margin-right: 70px;
-    }
-}

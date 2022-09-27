@@ -32,10 +32,9 @@ function App() {
 
     const novaLista = listTransactions.filter((elemento) => elemento !== item);
 
-    // eslint-disable-next-line no-restricted-globals
-    if(confirm('Deseja excluir este item?')){
+    
       setListTransactions(novaLista)
-    }
+    
 
   }
 
@@ -54,19 +53,18 @@ function App() {
           : 
           <PaginaPrincipal>
 
-              <Header> 
-                <button onClick={() => setEntrar(!entrar)} className='sair' type="button">Inicio</button>
-              </Header>
-
-              <div className='bloco1'>
-                <Form adicionarItens={adicionarItens} />
-                <Descricao listTransactions={listTransactions}/>
-              </div>
-
-              <div className='bloco2'>
-                <Filtro setFilter={setFilter}/>
-                <Lista listTransactions={filtrarLista} removerItens={removerItens}/>
-              </div>
+              <Header setEntrar={setEntrar}/> 
+            
+              <section className='sectionBloco'>
+                <div className='bloco1'>
+                  <Form adicionarItens={adicionarItens} />
+                  <Descricao listTransactions={listTransactions}/>
+                </div>
+                <div className='bloco2'>
+                  <Filtro setFilter={setFilter}/>
+                  <Lista listTransactions={filtrarLista} removerItens={removerItens}/>
+                </div>
+              </section>
 
           </PaginaPrincipal>
         }

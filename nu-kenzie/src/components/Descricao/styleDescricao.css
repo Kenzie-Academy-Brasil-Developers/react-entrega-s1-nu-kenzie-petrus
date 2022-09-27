@@ -13,11 +13,14 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
+    align-items: center;
 }
 
 
 .card1{
-    width: 327px;
+   max-width: 327px;
+   width: 100%;
     height: 310px;
     border-radius: 4px;
     border: solid 1px 
@@ -39,6 +42,8 @@
     background-color: rgba(248, 249, 250, 1);
     border: none;
     height: 53px;
+    max-width: 327px;
+    width: 80%;
 }
 
 .card1 > span{
@@ -83,6 +88,9 @@ select{
     color: white;
     font-weight: bold;
     width: 100%;
+    max-width: 327px;
+    width: 100%;
+    
 }
 
 .enviarValor:hover{
@@ -91,7 +99,8 @@ select{
 
 
 .card2{
-    width: 327px;
+    max-width: 327px;
+    width: 100%;
     border-radius: 4px;
     border: solid 1px rgb(206, 206, 206);
     padding: 20px;

@@ -1,14 +1,20 @@
 import kenzieB from '../../img/NuKenzieBlack.png';
 import './styleHeader.css';
 
-export default function Header({children}){
+export default function Header({setEntrar}){
+
+    function login(){
+        setEntrar(true)
+    }
 
     return(
 
-        <div className='header'>
-            <img src={kenzieB} alt="logo" />
-            {children}
-        </div>
+        <header>
+            <div className='blocoHeader'>
+                <img src={kenzieB} alt="logo" />
+                <button onClick={() => login()} className='sair' type="button">Inicio</button>
+            </div>
+        </header>
 
     )
 
