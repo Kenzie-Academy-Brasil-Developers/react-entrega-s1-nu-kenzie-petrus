@@ -1,4 +1,4 @@
-import kenzieB from '../../../img/NuKenzieBlack.png';
+import kenzieB from '../../img/NuKenzieBlack.png';
 import './styleHeader.css';
 
 export default function Header({children}){
@@ -13,3 +13,4 @@ export default function Header({children}){
     )
 
 }
+

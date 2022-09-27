@@ -1,0 +1,13 @@
+.lista{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 30px;
+}
+
+.mensagem{
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    width: 100%;
+}
